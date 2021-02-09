@@ -1,6 +1,12 @@
 .container {
     display: flex;
+    justify-content: center;
     height: 80px;
     width: 100%;
-    background: #dddddd;
+}
+
+.logo {
+    position: relative;
+    height: 90px;
+    width: 100px;
 }
