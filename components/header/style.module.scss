@@ -1,4 +1,17 @@
 .container {
     display: flex;
+    justify-content: space-evenly;
     width: 100%;
+    background: #f6f6f6;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 }
