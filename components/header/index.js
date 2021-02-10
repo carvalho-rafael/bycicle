@@ -8,12 +8,7 @@ export default function Header() {
                 <h1>Ergonomic Byke</h1>
                 <p>Confort, safety and beauty in one product. </p>
                 <p>You're going to love get a ride! </p>
-                <Image
-                    src="/images/bike.png"
-                    width={750}
-                    height={500}
-                    alt="Your Name"
-                />
+                <img src="/images/bike.png" alt="Your Name" />
             </div>
             <Form></Form>
         </div>

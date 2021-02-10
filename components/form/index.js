@@ -8,15 +8,15 @@ export default function Form() {
             </div>
             <form>
                 <div className={Style.formGroup}>
-                    <label for='name'>Name</label>
+                    <label htmlFor='name'>Name</label>
                     <input id='name' type='text' ></input>
                 </div>
                 <div className={Style.formGroup}>
-                    <label for='email'>Email</label>
+                    <label htmlFor='email'>Email</label>
                     <input id='email' type='email' ></input>
                 </div>
                 <div className={Style.formGroup}>
-                    <label for='message'>Message</label>
+                    <label htmlFor='message'>Message</label>
                     <textarea id='message' type='textarea' rows='8' ></textarea>
                 </div>
             </form>
