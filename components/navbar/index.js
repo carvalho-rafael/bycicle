@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Head from 'next/head'
 import Style from './style.module.scss'
 

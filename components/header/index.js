@@ -1,5 +1,4 @@
 import Style from './style.module.scss'
-import Image from 'next/image'
 import Form from '../form'
 export default function Header() {
     return (

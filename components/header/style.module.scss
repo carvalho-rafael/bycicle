@@ -1,8 +1,9 @@
 .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
-    background: #f6f6f6;
+    background: #f1faee;
 }
 
 .head {
@@ -15,8 +16,8 @@
         margin-bottom: 5px;
     }
     img {
-        width: 100%;
-        max-width: 750px;
+        width: 700px;
+        max-width: 100%;
         height: auto;
     }
 }
