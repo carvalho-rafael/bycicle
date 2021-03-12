@@ -24,7 +24,6 @@ export default async function handle(req, res) {
                 <p>Message: ${message}</p>`,
         });
     } catch (error) {
-        console.error(error);
         res.json({ 'message': 'erro' });
     }
 

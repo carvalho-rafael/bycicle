@@ -11,16 +11,11 @@ export default function Form() {
         event.preventDefault();
         
         const body = { name, email, age, message }
-        console.log(body)
         const result = await fetch('/api/contact', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(body),
         })
-
-        if (result) {
-            console.log(result);
-        }
     }
 
     return (
