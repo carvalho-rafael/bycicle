@@ -12,6 +12,7 @@ export default function Home() {
       <NavBar></NavBar>
       <Header></Header>
       <footer>
+        <h1>{process.env.ZOHO_PASS}</h1>
       </footer>
     </div>
   )

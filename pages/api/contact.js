@@ -1,8 +1,5 @@
 import nodemailer from 'nodemailer';
 
-import dotenv from 'dotenv';
-dotenv.config();
-
 export default async function handle(req, res) {
     const { name, email, age, message } = req.body;
 

@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import Style from './style.module.scss'
 
 export default function Popup({ title, message, type, show }) {
-    const [hide, setHide] = useState('none');
 
     return (
         <div
