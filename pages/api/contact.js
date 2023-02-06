@@ -16,7 +16,7 @@ export default async function handle(req, res) {
     try {
         let info = await transporter.sendMail({
             from: 'rafael@carvalhorafael.dev.br',
-            to: 'rafaelvfcarvalho@gmail.com',
+            to: 'rafael@carvalhorafael.dev.br',
             subject: 'Bycicle Contact',
             html:
                 `<p><b>${name}, ${age} anos</b></p>\
